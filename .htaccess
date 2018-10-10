@@ -1,0 +1,20 @@
+DirectoryIndex index index.html
+DirectorySlash off
+Options -Indexes -MultiViews
+
+Options +FollowSymLinks
+RewriteEngine Off
+RewriteBase /
+
+# Redirect from www
+RewriteCond %{HTTP_HOST} ^www.somberhead.com$ [NC]
+RewriteRule ^(.*)$ http://somberhead.com$1 [R=301,L]
+
+# Display no index.html
+RewriteRule ^index.html$ / [QSA,R]
+
+# 404
+ErrorDocument 404 /404.html
+
+# Redirects
+# (Example) Redirect 301 /index.html /about

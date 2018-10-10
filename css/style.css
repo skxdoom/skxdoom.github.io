@@ -1,0 +1,163 @@
+/*----------------
+# General
+----------------*/
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 0;
+color: #cccccc;
+padding: 0;
+margin: 0; 
+background-color: #202020;
+}
+.wrapper{
+width: 920px;
+margin: 0 auto;
+max-width: 100%;
+}
+.content,.footer{
+max-width: 100%;
+margin: 0px auto;
+padding: 20px 40px;
+background: #2d2d2d;
+}
+a,
+a:visited,
+a:active{
+color: #bbbbbb;
+text-decoration: none;
+-webkit-transition: color 0.1s;
+-moz-transition: color 0.1s;
+-o-transition: color 0.1s;
+transition: color 0.1s;
+}
+a:hover{
+color: #ffffff;
+}
+ul li{
+list-style-type: disc;
+}
+/*----------------
+# Typography
+----------------*/
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Roboto Condensed', sans-serif;
+letter-spacing: 0.06em;
+}
+/*----------------
+# Header
+----------------*/
+.header{
+display: block;
+background: #131313;
+}
+.photo{
+display: block;
+padding-top: 10px;
+margin: 0 auto;
+width: 200px;
+max-width: 100%;
+}
+.description{
+padding: 0;
+text-align: center;
+}
+.social{
+display: inline-block;
+margin-bottom: 20px;
+}
+.social ul {
+margin: auto 0;
+}
+.social ul li {
+margin: 0 10px;
+}
+.social li {
+display: inline;
+list-style-type: none;
+margin: 0;
+}
+/*----------------
+# Navigation
+----------------*/
+ul {
+   -webkit-padding-start: 0;
+}
+/*----------------
+# Content
+----------------*/
+.content {
+}
+.anchor-links ul{
+margin-left: 20px;
+}
+.title{
+font-size: 28px;
+color: #e6e6e6;
+text-transform: uppercase;
+text-align: center;
+margin: 40px 0px;
+}
+.projectTitle {
+font-size: 24px;
+text-transform: uppercase;
+margin: 30px 0px 0px 0px;
+}
+.projectSubtitle {
+color: #999999;
+margin: 0px 0px 30px 0px;
+}
+.video {
+position: relative;
+padding-bottom: 56.25%;
+margin: 10px 0;
+}
+.video iframe {
+position: absolute;
+width: 100%;
+height: 100%;
+}
+.screenshots { 
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 10px;
+align-items: stretch;
+justify-items: center;
+margin: 20px 0;
+}
+.screenshots img {
+max-width: 100%;
+}
+.gallery {
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr 1fr;
+grid-gap: 5px;
+align-items: stretch;
+justify-items: center;
+margin: 20px 0;
+}
+.gallery img {
+max-width: 100%;
+}
+/*----------------
+# Footer
+----------------*/
+.footer{
+display: block;
+text-align: center;
+margin-bottom: 20px;
+}
+/*----------------
+# Adaptive
+----------------*/
+@media (max-width: 1024px) {
+
+.screenshots,.gallery { 
+grid-template-columns: 1fr;
+}
+
+}
