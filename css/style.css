@@ -10,6 +10,10 @@ color: #cccccc;
 padding: 0;
 margin: 0; 
 background-color: #202020;
+background-image: url(/images/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
 .wrapper{
 width: 920px;
@@ -146,10 +150,10 @@ max-width: 100%;
 /*----------------
 # Footer
 ----------------*/
-.footer{
+.footer {
 display: block;
 text-align: center;
-margin-bottom: 20px;
+margin-bottom: 0;
 }
 /*----------------
 # Adaptive
