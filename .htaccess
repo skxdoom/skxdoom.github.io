@@ -14,7 +14,7 @@ RewriteRule ^(.*)$ http://somberhead.com$1 [R=301,L]
 RewriteRule ^index.html$ / [QSA,R]
 
 # 404
-ErrorDocument 404 /404.html
+# ErrorDocument 404 /404.html
 
 # Redirects
 # (Example) Redirect 301 /index.html /about
