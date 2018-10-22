@@ -3,7 +3,7 @@ DirectorySlash off
 Options -Indexes -MultiViews
 
 Options +FollowSymLinks
-RewriteEngine Off
+RewriteEngine On
 RewriteBase /
 
 # Redirect from www
@@ -18,3 +18,4 @@ ErrorDocument 404 /404.html
 
 # Redirects
 # (Example) Redirect 301 /index.html /about
+Redirect 301 /index.html /en/
