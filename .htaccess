@@ -7,8 +7,8 @@ RewriteEngine On
 RewriteBase /
 
 # Redirect from www
-RewriteCond %{HTTP_HOST} ^www.somberhead.com$ [NC]
-RewriteRule ^(.*)$ http://somberhead.com$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.skxdoom.github.io$ [NC]
+RewriteRule ^(.*)$ http://skxdoom.github.io$1 [R=301,L]
 
 # Display no index.html
 RewriteRule ^index.html$ / [QSA,R]
@@ -18,4 +18,4 @@ RewriteRule ^index.html$ / [QSA,R]
 
 # Redirects
 # (Example) Redirect 301 /index.html /about
-Redirect 301 /index.html /en/
+Redirect 301 /index.html https://skxdoom.github.io/en/
