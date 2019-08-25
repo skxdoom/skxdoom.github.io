@@ -277,19 +277,16 @@ html.swipebox-html.swipebox-touch {
 /* Skin 
 --------------------------*/
 #swipebox-overlay {
-  background: #0d0d0d;
+  background: #000000;
 }
 
 #swipebox-bottom-bar,
 #swipebox-top-bar {
   text-shadow: 1px 1px 1px black;
-  background: #000;
+  background: rgba(0, 0, 0, 0.75);
   opacity: 0.95;
 }
 
 #swipebox-top-bar {
-  color: white !important;
-  font-size: 15px;
-  line-height: 43px;
-  font-family: Helvetica, Arial, sans-serif;
+  line-height: 50px;
 }
