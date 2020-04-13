@@ -21,7 +21,7 @@ margin: 0 auto;
 max-width: 100%;
 }
 .content,.footer{
-max-width: 100%;
+max-width: 100%; 
 margin: 0px auto;
 padding: 20px 40px;
 background: #2d2d2d;
@@ -104,6 +104,14 @@ display: inline-block;
 margin: 10px;
 padding: 10px;
 border-radius: 20px;
+cursor: default;
+-webkit-transition: background 0.1s;
+-moz-transition: background 0.1s;
+-o-transition: background 0.1s;
+transition: background 0.1s;
+}
+.skill:hover {
+background: #202020;
 }
 .anchor-links ul{
 margin-left: 20px;
@@ -175,4 +183,14 @@ margin-bottom: 0;
 grid-template-columns: 1fr;
 }
 
+}
+/*----------------
+# Custom scrollbar
+----------------*/
+::-webkit-scrollbar {
+background: #2d2d2d;
+}
+::-webkit-scrollbar-thumb {
+background: #888888;
+border-radius: 10px;
 }
