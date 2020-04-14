@@ -277,7 +277,7 @@ html.swipebox-html.swipebox-touch {
 /* Skin 
 --------------------------*/
 #swipebox-overlay {
-  background: #000000;
+  background: #00000080;
 }
 
 #swipebox-bottom-bar,
@@ -285,6 +285,7 @@ html.swipebox-html.swipebox-touch {
   text-shadow: 1px 1px 1px black;
   background: rgba(0, 0, 0, 0.75);
   opacity: 0.95;
+  color: white;
 }
 
 #swipebox-top-bar {

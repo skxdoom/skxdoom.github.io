@@ -2,15 +2,15 @@
 # General
 ----------------*/
 body{
-font-family: 'Roboto Condensed', sans-serif;
-font-size: 18px;
-font-weight: 300;
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+font-weight: 400;
 letter-spacing: 0.02em;
-color: #cccccc;
+color: #000000;
 padding: 0;
 margin: 0; 
-background-color: #202020;
-background-image: url(/images/background.jpg);
+background-color: #888888;
+/*background-image: url(/images/background.jpg);*/
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -24,12 +24,12 @@ max-width: 100%;
 max-width: 100%; 
 margin: 0px auto;
 padding: 20px 40px;
-background: #2d2d2d;
+background: #ffffff;
 }
 a,
 a:visited,
 a:active{
-color: #bbbbbb;
+color: #b76969;
 text-decoration: none;
 -webkit-transition: color 0.1s;
 -moz-transition: color 0.1s;
@@ -37,7 +37,7 @@ text-decoration: none;
 transition: color 0.1s;
 }
 a:hover{
-color: #ffffff;
+color: #d42b2b;
 }
 ul li{
 list-style-type: disc;
@@ -58,13 +58,14 @@ letter-spacing: 0.06em;
 ----------------*/
 .header{
 display: block;
-background: #131313;
+background: #2b2b2b;
+color: #ffffff;
 }
 .photo{
 display: block;
 padding-top: 10px;
 margin: 0 auto;
-width: 200px;
+width: 180px;
 max-width: 100%;
 }
 .description{
@@ -98,7 +99,7 @@ ul {
 .content {
 }
 .skill {
-background: grey;
+background: #656565;
 color: white;
 display: inline-block;
 margin: 10px;
@@ -111,14 +112,14 @@ cursor: default;
 transition: background 0.1s;
 }
 .skill:hover {
-background: #202020;
+background: #888888;
 }
 .anchor-links ul{
 margin-left: 20px;
 }
 .title{
 font-size: 28px;
-color: #ffffff;
+color: #000000;
 text-transform: uppercase;
 text-align: center;
 margin: 40px 0px;
@@ -129,7 +130,7 @@ text-transform: uppercase;
 margin: 30px 0px 0px 0px;
 }
 .projectSubtitle {
-color: #989898;
+color: #909090;
 margin: 0px 0px 30px 0px;
 }
 .video {
@@ -166,6 +167,9 @@ margin: 20px 0;
 .gallery img {
 max-width: 100%;
 }
+.gallery-full { 
+grid-template-columns: 1fr;
+}
 /*----------------
 # Footer
 ----------------*/
@@ -191,6 +195,6 @@ grid-template-columns: 1fr;
 background: #2d2d2d;
 }
 ::-webkit-scrollbar-thumb {
-background: #888888;
-border-radius: 10px;
+background: #656565;
+border-radius: 0px;
 }
